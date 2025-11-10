@@ -1,0 +1,972 @@
+{
+  "final_status": "FAILURE",
+  "duration": 4.137,
+  "stats": {
+    "state": "failure",
+    "elapsed_time": 3.59,
+    "time_limit": 60.0,
+    "prefab_total": {
+      "freight_truck": 1,
+      "coach_bus": 1,
+      "wheeled_car": 3
+    },
+    "prefab_delivered": {},
+    "failed_vehicles_count": 4,
+    "is_victory": false,
+    "is_failure": true,
+    "is_running": false,
+    "final_cost": 22969.949,
+    "original_cost": 11484.975,
+    "cost_doubled": true,
+    "bridge_breakages": 3,
+    "failure_reason": "车辆wheeled_car损坏"
+  },
+  "events": [
+    {
+      "type": "SESSION_START",
+      "data": {
+        "prefab_vehicles_total": {
+          "freight_truck": 1,
+          "coach_bus": 1,
+          "wheeled_car": 3
+        },
+        "time": 0.0
+      }
+    },
+    {
+      "type": "STICK_BREAKAGE",
+      "data": {
+        "material": "wood",
+        "x": -1210.658,
+        "y": -42.331,
+        "time": 0.853
+      }
+    },
+    {
+      "type": "STICK_BREAKAGE",
+      "data": {
+        "material": "road",
+        "x": -637.689,
+        "y": 304.547,
+        "time": 1.001
+      }
+    },
+    {
+      "type": "STICK_BREAKAGE",
+      "data": {
+        "material": "road",
+        "x": -1264.887,
+        "y": 231.452,
+        "time": 2.195
+      }
+    },
+    {
+      "type": "VEHICLE_FAILED",
+      "data": {
+        "vehicle_type": "wheeled_car",
+        "reason": "fell_off_map",
+        "time": 3.064
+      }
+    },
+    {
+      "type": "GAME_FAILURE",
+      "data": {
+        "reason": "车辆丢失或损坏",
+        "time": 3.065
+      }
+    },
+    {
+      "type": "VEHICLE_FAILED",
+      "data": {
+        "vehicle_type": "wheeled_car",
+        "reason": "fell_off_map",
+        "time": 3.129
+      }
+    },
+    {
+      "type": "GAME_FAILURE",
+      "data": {
+        "reason": "车辆丢失或损坏",
+        "time": 3.129
+      }
+    },
+    {
+      "type": "VEHICLE_FAILED",
+      "data": {
+        "vehicle_type": "coach_bus",
+        "reason": "fell_off_map",
+        "time": 3.451
+      }
+    },
+    {
+      "type": "GAME_FAILURE",
+      "data": {
+        "reason": "车辆丢失或损坏",
+        "time": 3.451
+      }
+    },
+    {
+      "type": "VEHICLE_FAILED",
+      "data": {
+        "vehicle_type": "wheeled_car",
+        "reason": "fell_off_map",
+        "time": 3.59
+      }
+    },
+    {
+      "type": "GAME_FAILURE",
+      "data": {
+        "reason": "车辆丢失或损坏",
+        "time": 3.59
+      }
+    },
+    {
+      "type": "SESSION_END",
+      "data": {
+        "final_status": "FAILURE",
+        "session_duration": 4.137,
+        "stats": {
+          "state": "failure",
+          "elapsed_time": 3.59,
+          "time_limit": 60.0,
+          "prefab_total": {
+            "freight_truck": 1,
+            "coach_bus": 1,
+            "wheeled_car": 3
+          },
+          "prefab_delivered": {},
+          "failed_vehicles_count": 4,
+          "is_victory": false,
+          "is_failure": true,
+          "is_running": false,
+          "final_cost": 22969.949,
+          "original_cost": 11484.975,
+          "cost_doubled": true,
+          "bridge_breakages": 3,
+          "failure_reason": "车辆wheeled_car损坏"
+        },
+        "total_events": 12,
+        "time": 4.137
+      }
+    }
+  ],
+  "vehicle_positions": [
+    {
+      "time": 0.017,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1760.0,
+          "y": 40.273,
+          "angle": 0.0,
+          "speed": 0.109,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1480.0,
+          "y": 40.273,
+          "angle": 0.0,
+          "speed": 0.109,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1800.0,
+          "y": -239.727,
+          "angle": 0.0,
+          "speed": 0.109,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1640.0,
+          "y": -239.727,
+          "angle": 0.0,
+          "speed": 0.109,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1480.0,
+          "y": -239.727,
+          "angle": 0.0,
+          "speed": 0.109,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 0.217,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1759.984,
+          "y": 68.484,
+          "angle": -0.0,
+          "speed": 1.065,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1479.906,
+          "y": 76.408,
+          "angle": -0.0,
+          "speed": 1.201,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1799.906,
+          "y": -227.997,
+          "angle": 0.001,
+          "speed": 0.006,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1639.906,
+          "y": -227.997,
+          "angle": 0.001,
+          "speed": 0.006,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1464.644,
+          "y": -227.997,
+          "angle": 0.001,
+          "speed": 1.179,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 0.417,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1756.032,
+          "y": 68.135,
+          "angle": -0.0,
+          "speed": 0.379,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1451.885,
+          "y": 76.004,
+          "angle": 0.0,
+          "speed": 0.935,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1799.84,
+          "y": -227.993,
+          "angle": 0.001,
+          "speed": 0.001,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1639.376,
+          "y": -227.993,
+          "angle": 0.001,
+          "speed": 0.282,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1405.672,
+          "y": -227.993,
+          "angle": 0.001,
+          "speed": 1.234,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 0.617,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1739.833,
+          "y": 68.005,
+          "angle": 0.0,
+          "speed": 0.389,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1406.865,
+          "y": 76.004,
+          "angle": 0.0,
+          "speed": 0.938,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1799.772,
+          "y": -228.0,
+          "angle": 0.001,
+          "speed": 0.002,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1612.038,
+          "y": -228.0,
+          "angle": 0.001,
+          "speed": 0.656,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1346.292,
+          "y": -227.887,
+          "angle": 0.003,
+          "speed": 1.254,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 0.817,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1711.077,
+          "y": 68.005,
+          "angle": 0.0,
+          "speed": 0.733,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1361.008,
+          "y": 77.556,
+          "angle": 0.023,
+          "speed": 0.964,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1799.622,
+          "y": -227.998,
+          "angle": 0.001,
+          "speed": 0.155,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1568.262,
+          "y": -227.998,
+          "angle": 0.001,
+          "speed": 1.234,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1283.276,
+          "y": -220.161,
+          "angle": 0.23,
+          "speed": 1.39,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 1.017,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1675.812,
+          "y": 68.004,
+          "angle": 0.0,
+          "speed": 0.735,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1312.445,
+          "y": 86.303,
+          "angle": 0.143,
+          "speed": 1.121,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1773.286,
+          "y": -227.997,
+          "angle": 0.001,
+          "speed": 0.648,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1509.008,
+          "y": -227.997,
+          "angle": 0.001,
+          "speed": 1.234,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1218.533,
+          "y": -172.084,
+          "angle": 0.532,
+          "speed": 2.125,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 1.217,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1640.464,
+          "y": 68.004,
+          "angle": 0.0,
+          "speed": 0.737,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1263.43,
+          "y": 112.018,
+          "angle": 0.484,
+          "speed": 1.156,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1731.746,
+          "y": -228.0,
+          "angle": 0.001,
+          "speed": 1.228,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1449.659,
+          "y": -228.0,
+          "angle": 0.001,
+          "speed": 1.239,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1153.79,
+          "y": -61.223,
+          "angle": 0.719,
+          "speed": 3.244,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 1.417,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1602.86,
+          "y": 68.003,
+          "angle": 0.0,
+          "speed": 0.734,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1222.554,
+          "y": 163.578,
+          "angle": 0.965,
+          "speed": 1.718,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1668.846,
+          "y": -227.994,
+          "angle": 0.001,
+          "speed": 1.231,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1386.55,
+          "y": -227.994,
+          "angle": 0.001,
+          "speed": 1.234,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1085.001,
+          "y": 124.706,
+          "angle": 0.84,
+          "speed": 4.467,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 1.617,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1555.087,
+          "y": 68.003,
+          "angle": 0.0,
+          "speed": 0.733,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1171.656,
+          "y": 278.442,
+          "angle": 1.257,
+          "speed": 1.089,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1588.788,
+          "y": -228.0,
+          "angle": 0.001,
+          "speed": 1.232,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1304.753,
+          "y": -225.263,
+          "angle": 0.083,
+          "speed": 1.314,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -997.328,
+          "y": 446.546,
+          "angle": 0.927,
+          "speed": 5.727,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 1.817,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1515.932,
+          "y": 68.001,
+          "angle": 0.0,
+          "speed": 0.744,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1145.893,
+          "y": 309.179,
+          "angle": 1.092,
+          "speed": 0.484,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1523.293,
+          "y": -227.994,
+          "angle": 0.001,
+          "speed": 1.238,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1234.594,
+          "y": -194.924,
+          "angle": 0.33,
+          "speed": 1.815,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -967.048,
+          "y": 543.574,
+          "angle": 0.136,
+          "speed": 0.15,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 2.017,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1480.278,
+          "y": 68.0,
+          "angle": 0.0,
+          "speed": 0.745,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1144.072,
+          "y": 334.47,
+          "angle": 0.861,
+          "speed": 0.478,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1463.791,
+          "y": -227.995,
+          "angle": 0.001,
+          "speed": 1.239,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1170.844,
+          "y": -103.501,
+          "angle": 0.473,
+          "speed": 2.871,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -921.004,
+          "y": 534.29,
+          "angle": -0.195,
+          "speed": 1.221,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 2.217,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1447.917,
+          "y": 68.0,
+          "angle": 0.0,
+          "speed": 0.507,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1126.476,
+          "y": 352.033,
+          "angle": 0.696,
+          "speed": 0.878,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1404.213,
+          "y": -227.999,
+          "angle": 0.001,
+          "speed": 1.245,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1107.094,
+          "y": 50.705,
+          "angle": 0.562,
+          "speed": 4.075,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -853.119,
+          "y": 536.187,
+          "angle": -0.178,
+          "speed": 1.37,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 2.417,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1404.807,
+          "y": 68.004,
+          "angle": 0.0,
+          "speed": 0.74,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1093.039,
+          "y": 407.809,
+          "angle": 0.633,
+          "speed": 1.499,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1329.414,
+          "y": -227.251,
+          "angle": 0.023,
+          "speed": 1.286,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1027.407,
+          "y": 322.978,
+          "angle": 0.626,
+          "speed": 5.329,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -778.705,
+          "y": 607.916,
+          "angle": -0.032,
+          "speed": 1.927,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 2.617,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1355.708,
+          "y": 75.475,
+          "angle": 0.092,
+          "speed": 0.879,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1076.583,
+          "y": 517.677,
+          "angle": 0.717,
+          "speed": 2.268,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1247.403,
+          "y": -207.172,
+          "angle": 0.311,
+          "speed": 1.583,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -906.936,
+          "y": 583.84,
+          "angle": 0.748,
+          "speed": 4.667,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -712.151,
+          "y": 734.562,
+          "angle": 0.153,
+          "speed": 2.81,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 2.817,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1302.587,
+          "y": 90.123,
+          "angle": 0.328,
+          "speed": 0.847,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1080.715,
+          "y": 692.529,
+          "angle": 0.715,
+          "speed": 3.121,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1160.275,
+          "y": -107.863,
+          "angle": 0.53,
+          "speed": 2.534,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -763.798,
+          "y": 876.833,
+          "angle": 0.784,
+          "speed": 3.811,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -661.563,
+          "y": 892.168,
+          "angle": 0.256,
+          "speed": 2.576,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 3.017,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1263.912,
+          "y": 108.827,
+          "angle": 0.479,
+          "speed": 0.97,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1041.377,
+          "y": 789.264,
+          "angle": 0.758,
+          "speed": 2.129,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1094.594,
+          "y": 29.627,
+          "angle": 0.622,
+          "speed": 3.709,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -747.04,
+          "y": 1020.595,
+          "angle": 0.199,
+          "speed": 2.239,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -601.057,
+          "y": 1040.342,
+          "angle": 0.112,
+          "speed": 2.824,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 3.217,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1241.098,
+          "y": 135.303,
+          "angle": 0.803,
+          "speed": 0.643,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1036.459,
+          "y": 886.253,
+          "angle": 1.036,
+          "speed": 1.947,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -1020.871,
+          "y": 258.393,
+          "angle": 0.684,
+          "speed": 4.952,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 3.417,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1234.116,
+          "y": 197.244,
+          "angle": 1.274,
+          "speed": 1.491,
+          "is_prefab": true
+        },
+        {
+          "type": "coach_bus",
+          "x": -1035.135,
+          "y": 1046.632,
+          "angle": 1.055,
+          "speed": 2.868,
+          "is_prefab": true
+        },
+        {
+          "type": "wheeled_car",
+          "x": -928.381,
+          "y": 634.555,
+          "angle": 0.726,
+          "speed": 6.221,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 3.617,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1213.56,
+          "y": 358.535,
+          "angle": 1.545,
+          "speed": 2.788,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 3.817,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1200.746,
+          "y": 523.775,
+          "angle": 1.634,
+          "speed": 4.092,
+          "is_prefab": true
+        }
+      ]
+    },
+    {
+      "time": 4.017,
+      "vehicles": [
+        {
+          "type": "freight_truck",
+          "x": -1154.206,
+          "y": 657.352,
+          "angle": 1.643,
+          "speed": 1.558,
+          "is_prefab": true
+        }
+      ]
+    }
+  ]
+}
